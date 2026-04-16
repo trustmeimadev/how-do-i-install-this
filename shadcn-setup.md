@@ -12,7 +12,7 @@ Both should already have Tailwind installed. If not, what the hell have you been
 Run this in your project root, genius:
 
 ```bash
-npx shadcn-ui@latest init
+npx shadcn@latest init
 ```
 
 Answer the prompts like the indecisive developer you are:
@@ -26,7 +26,7 @@ Answer the prompts like the indecisive developer you are:
 Let's start with a button because that's probably all you can handle:
 
 ```bash
-npx shadcn-ui@latest add button
+npx shadcn@latest add button
 ```
 
 Congratulations, you now have a fancy button component you didn't write.
@@ -53,20 +53,20 @@ Common ones you'll probably need:
 
 ```bash
 # For forms (because HTML forms are too mainstream)
-npx shadcn-ui@latest add input
-npx shadcn-ui@latest add label
-npx shadcn-ui@latest add textarea
+npx shadcn@latest add input
+npx shadcn@latest add label
+npx shadcn@latest add textarea
 
 # For layout (because CSS Grid is apparently rocket science)
-npx shadcn-ui@latest add card
-npx shadcn-ui@latest add separator
+npx shadcn@latest add card
+npx shadcn@latest add separator
 
 # For the inevitable modal popup
-npx shadcn-ui@latest add dialog
+npx shadcn@latest add dialog
 
 # For when you need to show off
-npx shadcn-ui@latest add dropdown-menu
-npx shadcn-ui@latest add badge
+npx shadcn@latest add dropdown-menu
+npx shadcn@latest add badge
 ```
 
 ### Step 5: Configure Your Path Aliases (If You Skipped This Like an Idiot)
